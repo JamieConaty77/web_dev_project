@@ -10,10 +10,11 @@ p {
     text-align: center;
     font-family: serif, Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #p2 {
     color: white;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
     background-image: url("../images/alps.jpg");
@@ -22,19 +23,12 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-#slopes {
+
+div#gallery img {
     height: 525px;
     width: 45%;
     margin: 10px;
     display: inline-block;
-    border: 5px solid black;
-    border-radius: 5px;
-}
-#lucas_snow {
-    height: 525px;
-    width: 45%;
-    margin: 10px;
-    display: inline-block;
-    border: 5px solid black;
-    border-radius: 5px;
+    border: 10px solid black;
+    border-radius: 50px;
 }
