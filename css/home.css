@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+p {
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    background-image: url("../images/alps.jpeg"); /* "../" steps out of the css folder and back into the main folder so we can select the images folder */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
